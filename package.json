@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/assert-has-atob-support": "github:stdlib-js/assert-has-atob-support#main",
-    "@stdlib/buffer-from-string": "^0.2.2"
+    "@stdlib/buffer-from-string": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-string": "^0.2.2",
