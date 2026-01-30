@@ -46,7 +46,7 @@ limitations under the License.
 <!-- eslint-disable stdlib/no-redeclare -->
 
 ```javascript
-import atob from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-atob@esm/index.mjs';
+import atob from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-atob@v0.1.0-esm/index.mjs';
 ```
 
 #### atob( str )
@@ -88,7 +88,7 @@ var out = atob( 'SGVsbG8sIHdvcmxk' );
 <body>
 <script type="module">
 
-import atob from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-atob@esm/index.mjs';
+import atob from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-atob@v0.1.0-esm/index.mjs';
 
 var str = 'SGVsbG8gV29ybGQh';
 var out = atob( str );
