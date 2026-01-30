@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-atob",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Decode a string of data which has been encoded using Base64 encoding.",
   "license": "Apache-2.0",
   "author": {
@@ -79,7 +79,6 @@
     "base64",
     "binary"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
