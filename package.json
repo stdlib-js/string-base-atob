@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-atob",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Decode a string of data which has been encoded using Base64 encoding.",
   "license": "Apache-2.0",
   "author": {
@@ -38,11 +38,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-atob-support": "github:stdlib-js/assert-has-atob-support#main",
+    "@stdlib/assert-has-atob-support": "^0.1.0",
     "@stdlib/buffer-from-string": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-string": "^0.2.2",
+    "@stdlib/assert-is-string": "^0.2.3",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
