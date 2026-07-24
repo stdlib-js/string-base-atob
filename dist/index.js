@@ -1,11 +1,11 @@
-"use strict";var e=function(r,t){return function(){return t||r((t={exports:{}}).exports,t),t.exports}};var s=e(function(g,i){
+"use strict";var e=function(r,t){return function(){try{return t||r((t={exports:{}}).exports,t),t.exports}catch(f){throw (t=0, f)}};};var s=e(function(h,i){
 i.exports=atob
-});var o=e(function(h,a){
-var f=s();function p(r){try{return f(r)}catch(t){return null}}a.exports=p
-});var l=e(function(y,n){
-var v=/[^\u0000-\u007F]/;n.exports=v
-});var c=e(function(C,b){
-var q=require('@stdlib/buffer-from-string/dist'),x=l();function A(r){return x.test(r)?null:q(r,"base64").toString("utf8")}b.exports=A
-});var I=require('@stdlib/assert-has-atob-support/dist'),N=o(),S=c(),u;I()?u=N:u=S;module.exports=u;
+});var o=e(function(y,a){
+var p=s();function v(r){try{return p(r)}catch(t){return null}}a.exports=v
+});var l=e(function(C,n){
+var q=/[^\u0000-\u007F]/;n.exports=q
+});var c=e(function(E,b){
+var x=require('@stdlib/buffer-from-string/dist'),A=l();function I(r){return A.test(r)?null:x(r,"base64").toString("utf8")}b.exports=I
+});var N=require('@stdlib/assert-has-atob-support/dist'),S=o(),_=c(),u;N()?u=S:u=_;module.exports=u;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
